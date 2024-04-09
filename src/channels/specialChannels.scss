@@ -86,7 +86,7 @@
 }
 
 // NOT IN CHANNEL LIST
-%channelHeaderBar {
+%channelNotInList {
   background: transparent;
 }
 /* SERVER GUIDE */
@@ -116,15 +116,15 @@
     background-position: center center;
     background-size: 100%100%;
   }
-  %serverGuideChannelIcon, %serverGuideRulesIcon {
-    background: var(--main-color);
-    &>svg>path {
+  %serverGuideChannelIcon,
+  %serverGuideRulesIcon {
+    background: $main-color;
+    & > svg > path {
       fill: #fff;
     }
   }
   %serverGuideActionCompleted > path {
     fill: var(--success-color);
-  
   }
 }
 /*Cases where we get taken to channels*/
