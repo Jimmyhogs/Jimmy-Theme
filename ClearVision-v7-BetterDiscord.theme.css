@@ -50,6 +50,8 @@
   .lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5) {
     background-color: #0f0f0f;
     border: none;
+  .visual-refresh:not(.visual-refresh-chat-input) .channelTextArea__74017 {
+  /* background-color: var(--hsl-input-shading);
 }
 
 /* THEME SPECIFIC SHADING */
