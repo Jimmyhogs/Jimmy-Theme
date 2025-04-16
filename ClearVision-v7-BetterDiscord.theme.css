@@ -1,6 +1,8 @@
 
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 
+
+
 /**
  * @name ClearVision V7 for BetterDiscord
  * @author ClearVision Team
@@ -47,12 +49,15 @@
   /* Change Ping color */
   --status-danger: var(--main-color); /* Ping color [default: #2780e6] */
   --status-danger-background: var(--main-color); /* New color background. (I.E.) New in shop */
-  .lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5) {
-    background-color: var(--hsl-input-shading);
-    border: none;
-  .visual-refresh:not(.visual-refresh-chat-input) .channelTextArea__74017 {
-    background-color: none;
+  /* Unread Dot recoloring */
+    .item__58105 { /* Server Unread dot */
+    background-color:  var(--main-color);
 }
+    .unread__2ea32 { /* Channel Unread Dot */
+    background-color: var(--main-color);
+}
+
+
 
 /* THEME SPECIFIC SHADING */
 /* LIGHT THEME */
@@ -102,3 +107,14 @@
 
 
 /* ADD ADDITIONAL CSS BELOW HERE */
+
+  .lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5) {
+    background-color: var(--hsl-input-shading);
+    border: none;
+  .channelTextArea__74017 {
+    background-color: var(--background-image);
+    box-shadow: 0 0 0 2px var(--hsl-input-border-shading);
+    border-color: rgba(0,0,0,0);
+
+
+}
