@@ -48,10 +48,10 @@
   --status-danger: var(--main-color); /* Ping color [default: #2780e6] */
   --status-danger-background: var(--main-color); /* New color background. (I.E.) New in shop */
   .lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5) {
-    background-color: #0f0f0f;
+    background-color: var(--hsl-input-shading);
     border: none;
   .visual-refresh:not(.visual-refresh-chat-input) .channelTextArea__74017 {
-  /* background-color: var(--hsl-input-shading);
+    background-color: none;
 }
 
 /* THEME SPECIFIC SHADING */
