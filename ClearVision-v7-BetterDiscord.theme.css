@@ -52,8 +52,6 @@
     border: none;
 }
 
-}
-
 /* THEME SPECIFIC SHADING */
 /* LIGHT THEME */
 :is(.theme-light, .theme-dark .theme-light) {
